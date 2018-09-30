@@ -18,7 +18,7 @@
 @keyframes dash {
   0% {
 		stroke-dashoffset: -1000;
-		fill:#F0D247;
+		fill:rgb(240, 210, 71);
   }
   50% {
 		stroke-dashoffset: 0;
@@ -62,10 +62,16 @@ body{
 	color:#323232;
 }
 .garanty{
+	max-width: 350px;
 	padding: 20px 20px 20px 20px;
 	border-radius: 50px;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	box-shadow: 0 4px 40px rgba(240, 210, 71,0.27), 0 3px 6px rgba(240, 210, 71,0.27);
 }
 .garanty-discr{
-	margin-top: 30px;
+	margin-top: 10px;
 }
+.garanty-img{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
