@@ -1,0 +1,33 @@
+.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#323232;}
+.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#F0D247;stroke:#F0D247;stroke-width:3;stroke-miterlimit:10;}
+.st1 {
+	stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: dash 4s linear;
+	animation-fill-mode: forwards;
+	animation-iteration-count:infinite;
+-moz-animation-iteration-count:infinite;
+-webkit-animation-iteration-count:infinite;
+ 
+}
+@keyframes dash {
+  0% {
+		stroke-dashoffset: -1000;
+		fill:#F0D247;
+  }
+  50% {
+		stroke-dashoffset: 0;
+		fill:rgb(230, 217, 163);
+	}
+	75%{
+		stroke-dashoffset: 1000;
+		fill:#fff;
+	}
+	100% {
+		stroke-dashoffset: 2000;
+		fill:#F0D247;
+	}
+}
+body{
+  background:#fff;
+}
