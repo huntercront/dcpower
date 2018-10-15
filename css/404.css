@@ -15,7 +15,7 @@ h1{
 	align-items: center;
 	justify-content: center;
 	width: 100vw;
-	background-image: url('/img/404bgimg.svg');
+	background-image: url('./img/404bgimg.svg');
 	background-repeat: no-repeat;
 	background-size: 1000px;
 	background-position: top center;
