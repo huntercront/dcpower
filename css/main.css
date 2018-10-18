@@ -1,12 +1,13 @@
 
 .svg_logo{
-	max-width: 20px;
-	max-height: 70px;
+	width:180px;
+	height:58.8px;
 }
 .st_0{
-	fill-rule:evenodd;clip-rule:evenodd;fill:#19171b;}
+	fill-rule:evenodd;clip-rule:evenodd;fill:#595959;
+transition: 1s;}
 .st_1{fill-rule:evenodd;clip-rule:evenodd;fill:#f79725;stroke:#f79725;stroke-width:3;stroke-miterlimit:10;}
-.st_1, .st20 {
+.st_1{
 	stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
   animation: dash 4s linear;
@@ -360,4 +361,16 @@ body{
 	transition: all 3s, 0.7s ease-in-out;
 	}
 }
+.navbar-brand{
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #f79725 4%);
+  background-position: -250px 0;
+  background-size: 250px 100%;
+  background-repeat: no-repeat;
+	transition: 1s;
+	animation: 1s;
+}
+.navbar-brand:hover{
+  background-position: 0 0;
+}
+
 
