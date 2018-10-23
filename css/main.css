@@ -5,10 +5,13 @@ small::selection {
 	background: #f79725;
 }
 p::selection {
-	background: #f79725;
+	background: #fab25a;
+}
+span::selection {
+	background: #fab25a;
 }
 a::selection {
-	background: #f79725;
+	background: #fab25a;
 }
 .svg_logo{
 	width:180px;
@@ -314,7 +317,7 @@ body{
 	color:#595959; 
 }
 
-.navbar-brand, .nav-a{
+.navbar-brand{
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #f79725 4%);
   background-position: -250px 0;
   background-size: 250px 100%;
@@ -326,7 +329,7 @@ body{
   background-position: 0 0;
 }
 .nav-a:hover{
-	background-position: 0 0;
+	color:#f79725;
 }
 @media (max-width: 978px){
 	.menu-btn{
