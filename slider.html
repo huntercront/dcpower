@@ -1,149 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Slider</title>
 	<link rel="stylesheet" href="./css/slider.css">
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500&amp;subset=cyrillic" rel="stylesheet">
-
+	<title>SLIDER</title>
+</head>
 <body>
-	<main class="slider_container">
-		<div class="element-card">
-			<img src="./img/hugo-sousa-383214-unsplash-min.jpg" alt="" class="slider_element_img">
-			<div class="element-card_text_container">
-				<h3 class="element-card_tittle">Lorem, ipsum dolor.</h3>
-
-				<span class="slider_element_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, amet.</span>
-				<a href="#" class="card-more"><button class="element_button">More</button></a>
+		<div id="slider">
+				<input checked="" type="radio" name="slider" id="slide1">
+				<input type="radio" name="slider" id="slide2">
+				<input type="radio" name="slider" id="slide3">
+				<input type="radio" name="slider" id="slide4">
+				<input type="radio" name="slider" id="slide5">
+				
+				<div id="slides">
+					<div id="overflow">
+						<div class="inner">
+							<div class="slide slide_1">
+								<div class="slide-content">
+									<h3>Slide 1</h3>
+									<p>Content for Slide 1</p>
+								</div>
+							</div>
+							<div class="slide slide_2">
+								<div class="slide-content">
+									<h3>Slide 2</h3>	
+									<p>Content for Slide 2</p>
+								</div>
+							</div>
+				<div class="slide slide_2">
+								<div class="slide-content">
+									<h3>Slide 2</h3>	
+									<p>Content for Slide 5</p>
+								</div>
+							</div>
+							<div class="slide slide_3">
+								<div class="slide-content">
+									<h3>Slide 3</h3>
+									<p>Content for Slide 3</p>
+								</div>
+							</div>
+							<div class="slide slide_4">
+								<div class="slide-content">
+									<h3>Slide 4</h3>
+									<p>Content for Slide 4</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+			
+				<div id="controls">
+					<label for="slide1"></label>
+					<label for="slide2"></label>
+					<label for="slide3"></label>
+					<label for="slide4"></label>
+					<label for="slide5"></label>
+				</div>
+				
+				<div id="bullets">
+					<label for="slide1"></label>
+					<label for="slide2"></label>
+					<label for="slide3"></label>
+					<label for="slide4"></label>
+					<label for="slide5"></label>
+				</div>
 			</div>
-		</div>
-		<div class="element-card">
-			<img src="./img/photo-1471871480126-59ab253c49e9-min.jpg" alt="" class="slider_element_img">
-			<div class="element-card_text_container">
-				<h3 class="element-card_tittle">Lorem, ipsum dolor.</h3>
-
-				<span class="slider_element_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, amet.</span>
-				<a href="#" class="card-more"><button class="element_button">More</button></a>
-			</div>
-		</div>
-		<div class="element-card">
-			<img src="./img/hugo-sousa-383214-unsplash-min.jpg" alt="" class="slider_element_img">
-			<div class="element-card_text_container">
-				<h3 class="element-card_tittle">Lorem, ipsum dolor.</h3>
-
-				<span class="slider_element_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, amet.</span>
-				<a href="#" class="card-more"><button class="element_button">More</button></a>
-			</div>
-		</div>
-		<div class="element-card">
-			<img src="./img/hugo-sousa-383214-unsplash-min.jpg" alt="" class="slider_element_img">
-			<div class="element-card_text_container">
-				<h3 class="element-card_tittle">Lorem, ipsum dolor.</h3>
-
-				<span class="slider_element_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, amet.</span>
-				<a href="#" class="card-more"><button class="element_button">More</button></a>
-			</div>
-		</div>
-		<div class="element-card">
-			<img src="./img/hugo-sousa-383214-unsplash-min.jpg" alt="" class="slider_element_img">
-			<div class="element-card_text_container">
-				<h3 class="element-card_tittle">Lorem, ipsum dolor.</h3>
-
-				<span class="slider_element_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, amet.</span>
-				<a href="#" class="card-more"><button class="element_button">More</button></a>
-			</div>
-		</div>
-		<div class="element-card">
-			<img src="./img/hugo-sousa-383214-unsplash-min.jpg" alt="" class="slider_element_img">
-			<div class="element-card_text_container">
-				<h3 class="element-card_tittle">Lorem, ipsum dolor.</h3>
-
-				<span class="slider_element_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, amet.</span>
-				<a href="#" class="card-more"><button class="element_button">More</button></a>
-			</div>
-		</div>
-		<div class="element-card">
-			<img src="./img/hugo-sousa-383214-unsplash-min.jpg" alt="" class="slider_element_img">
-			<div class="element-card_text_container">
-				<h3 class="element-card_tittle">Lorem, ipsum dolor.</h3>
-
-				<span class="slider_element_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, amet.</span>
-				<a href="#" class="card-more"><button class="element_button">More</button></a>
-			</div>
-		</div>
-		<div class="element-card">
-			<img src="./img/photo-1471871480126-59ab253c49e9-min.jpg" alt="" class="slider_element_img">
-			<div class="element-card_text_container">
-				<h3 class="element-card_tittle">Lorem, ipsum dolor.</h3>
-
-				<span class="slider_element_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, amet.</span>
-				<a href="#" class="card-more"><button class="element_button">More</button></a>
-			</div>
-		</div>
-		<div class="element-card">
-			<img src="./img/photo-1471871480126-59ab253c49e9-min.jpg" alt="" class="slider_element_img">
-			<div class="element-card_text_container">
-				<h3 class="element-card_tittle">Lorem, ipsum dolor.</h3>
-
-				<span class="slider_element_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, amet.</span>
-				<a href="#" class="card-more"><button class="element_button">More</button></a>
-			</div>
-		</div>
-		<div class="element-card">
-			<img src="./img/photo-1471871480126-59ab253c49e9-min.jpg" alt="" class="slider_element_img">
-			<div class="element-card_text_container">
-				<h3 class="element-card_tittle">Lorem, ipsum dolor.</h3>
-
-				<span class="slider_element_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, amet.</span>
-				<a href="#" class="card-more"><button class="element_button">More</button></a>
-			</div>
-		</div>
-		<script src="./js/slider.js"></script>
-	</main>
-	<footer class="site-footer">
-		<div class="footer-container">
-		<div class="site-footer-copiright">
-				<img src="./img/AC_power svg.svg" alt="" class="footer-logo">
-			<span class="copiright">
-				Lorem ipsum dolor sit amet.
-			</span>
-			<small class="copiright-text">2018 AC POWER</small>
-		</div>
-	
-		<div class="footer-information">
-			<span class="footer-contact">Contact us</span>
-			<p class="phone">890000123123</p>
-		</div>
-		<div class="footer-social">
-			<span class="social-text">
-				We are social
-			</span>
-		<div class="footer-social-icon">
-				<a href="" class="social_vicon social_icon_effect">
-						<svg class="social_vicon_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 511.962 511.962" style="enable-background:new 0 0 511.962 511.962;" xml:space="preserve">
-									<path d="M507.399,370.471c-1.376-2.304-9.888-20.8-50.848-58.816c-42.88-39.808-37.12-33.344,14.528-102.176    c31.456-41.92,44.032-67.52,40.096-78.464c-3.744-10.432-26.88-7.68-26.88-7.68l-76.928,0.448c0,0-5.696-0.768-9.952,1.76    c-4.128,2.496-6.784,8.256-6.784,8.256s-12.192,32.448-28.448,60.032c-34.272,58.208-48,61.28-53.6,57.664    c-13.024-8.416-9.76-33.856-9.76-51.904c0-56.416,8.544-79.936-16.672-86.016c-8.384-2.016-14.528-3.36-35.936-3.584    c-27.456-0.288-50.72,0.096-63.872,6.528c-8.768,4.288-15.52,13.856-11.392,14.4c5.088,0.672,16.608,3.104,22.72,11.424    c7.904,10.72,7.616,34.848,7.616,34.848s4.544,66.4-10.592,74.656c-10.4,5.664-24.64-5.888-55.2-58.72    c-15.648-27.04-27.488-56.96-27.488-56.96s-2.272-5.568-6.336-8.544c-4.928-3.616-11.84-4.768-11.84-4.768l-73.152,0.448    c0,0-10.976,0.32-15.008,5.088c-3.584,4.256-0.288,13.024-0.288,13.024s57.28,133.984,122.112,201.536    c59.488,61.92,127.008,57.856,127.008,57.856h30.592c0,0,9.248-1.024,13.952-6.112c4.352-4.672,4.192-13.44,4.192-13.44    s-0.608-41.056,18.464-47.104c18.784-5.952,42.912,39.68,68.48,57.248c19.328,13.28,34.016,10.368,34.016,10.368l68.384-0.96    C488.583,400.807,524.359,398.599,507.399,370.471z"/>
-							</svg>
-				</a>
-				<a href="" class="social_iicon social_icon_effect">
-					<svg class="social_iicon_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-							<path d="M352,0H160C71.648,0,0,71.648,0,160v192c0,88.352,71.648,160,160,160h192c88.352,0,160-71.648,160-160V160    C512,71.648,440.352,0,352,0z M464,352c0,61.76-50.24,112-112,112H160c-61.76,0-112-50.24-112-112V160C48,98.24,98.24,48,160,48    h192c61.76,0,112,50.24,112,112V352z"/>
-							<path d="M256,128c-70.688,0-128,57.312-128,128s57.312,128,128,128s128-57.312,128-128S326.688,128,256,128z M256,336    c-44.096,0-80-35.904-80-80c0-44.128,35.904-80,80-80s80,35.872,80,80C336,300.096,300.096,336,256,336z"/>
-							<circle cx="393.6" cy="118.4" r="17.056"/>
-					</svg>
-				</a>
-				<a href="" class="social_ficon social_icon_effect">
-						<svg class="social_ficon_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-							<path d="M448,0H64C28.704,0,0,28.704,0,64v384c0,35.296,28.704,64,64,64h192V336h-64v-80h64v-64c0-53.024,42.976-96,96-96h64v80    h-32c-17.664,0-32-1.664-32,16v64h80l-32,80h-48v176h96c35.296,0,64-28.704,64-64V64C512,28.704,483.296,0,448,0z"/>
-					</svg>
-				</a>
-		</div>
-	</div>
-</div>
-	</footer>
+<script src="./js/slider.js"></script>
 </body>
-
-
 </html>
