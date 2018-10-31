@@ -1,0 +1,136 @@
+body, footer{
+	background:#fefefe;
+	color:#595959;
+	font-family: 'Ubuntu', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+}
+
+.slider_element_img{
+	object-fit: cover;
+	height: 50%;
+	width: 100%;
+	overflow: hidden;
+	overflow-y: hidden;
+	border-radius: 11px 11px 0px 0px;
+}
+.slider_container{
+	width: 100%;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	transition: 1s;
+	
+}
+.element_button{
+	background-color:transparent;
+	margin-top: 20px;
+	padding: 10px 14px 10px 14px;
+	border-radius: 20px;
+	width:120px;
+	border: 1px solid #f79725;
+	outline: none;
+	text-transform: uppercase;
+	color:#595959;
+	cursor: pointer;
+}
+.card-more{
+	align-self: center;
+}
+.element_button:hover{
+	background-color:#fdbe71;
+}
+.element-card_text_container{
+	display:flex;
+	flex-direction: column;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.slider_element{
+	margin: 10px 30px 10px 30px;
+	display: flex;
+	flex-direction: column;
+} 
+
+.element-card {
+  width: 300px;
+  height: 400px;
+  background-color: #FFFFFF;
+  border-radius: 11px;
+  border: 1px solid rgba(204, 204, 204, 0.7);
+  overflow: visible;
+  margin: 10px;
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0);
+	transition: 400ms;
+}
+.element-card:hover {
+	box-shadow: 0px 15px 19px 0px rgba(0, 0, 0, 0.16);
+	transform: translateY(-5px);
+}
+
+
+.social_icon_effect:hover{
+	fill:#f79725;
+	opacity: 1;
+}
+.social_iicon, .social_ficon{
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	fill: #595959;
+	opacity: 0.5;
+	transition: 0.4s;
+}
+.social_vicon, .social_yicon{
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	fill: #616161;
+	opacity: 0.5;
+	transition: 0.4s;
+}
+.footer-social-icon{
+	display: flex;
+	justify-content: center;
+	padding-top: 16px;
+	align-items: center;
+
+}
+.footer-container{
+	padding:40px 50px 40px 50px;
+	margin-left: 8%;
+	margin-right: 8%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	border-radius: 11px;
+	box-shadow: 0px 10px 19px 0px rgba(0, 0, 0, 0.16);
+	border: 1px solid rgba(204, 204, 204, 0.7);
+	background: #fefefe;
+	transform: translateY(-40px);
+	flex-wrap: wrap;
+}
+.footer-logo{
+	width:120px;
+}
+.site-footer-copiright{
+	display: flex;
+	flex-direction: column;
+}
+
+.social-text, .footer-contact,.copiright{
+	font-size: 20px;
+	font-weight: 500;
+}
+.site-footer{
+	margin-top: 100px;
+	background: rgba(247, 151, 37,.1);
+	padding-bottom: 20px;
+}
+.footer-links{
+	display: flex;
+	flex-direction: row;
+}
