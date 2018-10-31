@@ -15,14 +15,6 @@
 	text-decoration: none;
 }
 
-#slides {
-	border-radius: 5px;
-	box-shadow: 1px 1px 4px #666;
-	padding: 8px;
-	background: #fff;
-	position: relative;
-	z-index: 1;
-}
 
 #overflow {
 	width: 100%;
