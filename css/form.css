@@ -65,7 +65,7 @@ justify-content: center;
 
 
 input {
-  margin: 8px 25px;
+	margin: 10px 25px 10px 10px;
   width: 250px;
   border: none;
   padding: 10px 0;
@@ -83,6 +83,23 @@ input:focus, input:valid {
   box-shadow: none;
   outline: none;
   background-position: 0 0;
+}
+.form-label {
+	left:10px;
+	position: absolute;
+  background-color: #fff;
+  z-index: 10;
+	transition:150ms ease-out;
+	font-size: .9em;
+	transform: translateY(-125%);
+}
+input:valid ~ .form-label {
+	opacity: 0.5;
+	color:green;
+  
+}
+input:focus ~ .form-label {
+  opacity: 0.5;
 }
 
 .back{
@@ -118,6 +135,8 @@ input:valid + span:after {
 	padding-bottom: 10px;
 }
 .contact_us_lable{
+	padding-top: 7px;
+	position: relative;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
