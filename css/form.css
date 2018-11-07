@@ -31,14 +31,25 @@
 	align-items: center;
 
 }
-.social_vicon, .social_yicon{
-	width: 30px;
-	height: 30px;
+.social_vicon{
+	position: relative;
+	width: 20px;
+	height: 20px;
 	margin-left: 10px;
 	margin-right: 10px;
-	fill: #616161;
+	fill: #ffffff;
 	opacity: 0.7;
 	transition: 0.4s;
+}
+.social_vicon:before{
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #616161;
+	opacity: 0.7;
+	border-radius: 3px;
+	z-index: 0;
 }
 .social_icon_effect:hover{
 	fill:#f79725;
@@ -95,7 +106,6 @@ input:focus, input:valid {
 }
 input:valid ~ .form-label {
 	opacity: 0.5;
-	color:green;
   
 }
 input:focus ~ .form-label {
