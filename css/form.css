@@ -31,30 +31,36 @@
 	align-items: center;
 
 }
+.social_vicon_svg{
+	width: 18px;
+	height: 18px;
+}
 .social_vicon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: relative;
-	width: 20px;
-	height: 20px;
+	width: 25px;
+	height: 25px;
 	margin-left: 10px;
 	margin-right: 10px;
-	fill: #ffffff;
+	fill: #616161;
 	opacity: 0.7;
 	transition: 0.4s;
+	border: 2px solid #616161;
+	border-radius: 5px;
 }
-.social_vicon:before{
-	content: '';
-	position: absolute;
-	width: 20px;
-	height: 20px;
-	background-color: #616161;
-	opacity: 0.7;
-	border-radius: 3px;
-	z-index: 0;
-}
+
 .social_icon_effect:hover{
 	fill:#f79725;
 	opacity: 1;
 }
+.v_social_icon_effect:hover{
+	fill:#f79725;
+	opacity: 1;
+	border: 1.5px solid #f79725;
+}
+
 .contact_logo{
 display: flex;
 justify-content: center;
@@ -65,8 +71,8 @@ justify-content: center;
 	opacity: .7;
 }
 .social_iicon, .social_ficon{
-	width: 20px;
-	height: 20px;
+	width: 25px;
+	height: 25px;
 	margin-left: 10px;
 	margin-right: 10px;
 	fill: #616161;
