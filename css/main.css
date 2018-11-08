@@ -59,37 +59,57 @@ body{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-size: 1.1em;
 }
 .main-container{
 	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
 	
 }
 .header-row-one h1{
+	font-size: 48px;
 	font-weight: 700;
 	text-transform: uppercase;
 }
-.header-row-one{
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-	text-align: center;
-	flex-direction: column;
-	background-image: url('/img/header_bg.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index: 0;
-	color: #fefefe;
+.main-hero{
+	fill: #f79725;
+	animation: dash 10s linear;
 }
-/* .header-row-one::before{
+.header-row{
+	height: 80vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	/* background-image: url('/img/header_bg.jpg');
+	background-size: cover;
+	background-position: right center; */
+}
+.header-row-one{
+	color: #616161;
+	margin-left: 10%;
+	margin-bottom: 10%;
+	z-index: 2;
+}
+.ie-main-hero{
+	position: absolute;
+	top: 0;
+	right: 0;
+	min-width: 60%;
+	min-height: 60%;
+	margin: 0;
+
+}
+/* .header-row::before{
 	content: '';
 	position: absolute;
 	top:0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(89, 89, 89,0.4);
-	z-index: -2;
-} */
+	background-color: rgba(255, 255, 255, 0.8);
+	z-index: 0;
+}  */
 .contact-us{
 	background-image:linear-gradient(to right,	#ffc987,#f79725) ;
 	padding: 10px 27px 10px 27px;
@@ -173,15 +193,7 @@ body{
 	color:#f79725;
 	cursor: pointer;
 }
-.header-row-text,.header-row-info{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.header-row{
-	height: 80vh;
-	color:#3c3b3d!important;
-}
+
 
 .img-container{
 	margin-left: 10px;
@@ -362,7 +374,7 @@ body{
 
 
 
-@media (max-width:978px){
+@media (max-width:1010px){
 	.main-menu-container{
 		padding-top: 0;
 		padding-bottom: 0;
@@ -376,11 +388,11 @@ body{
 		margin-top: none;
 	}
 	.header-row-one{
-		display: flex;
+		/* display: flex;
 		justify-content: center;
 		align-content: center;
 		align-items: center;
-		text-align: center;
+		text-align: center; */
 	}
 }
 .menu-btn{
@@ -448,7 +460,19 @@ body{
 .nav-a:hover{
 	color:#f79725;
 }
-@media (max-width: 978px){
+@media (max-width: 1010px){
+	.main-hero{
+		fill: #f79725;
+	}
+	.ie-main-hero{
+		position: absolute;
+		top: 0;
+		right: 0;
+		min-width: 100%;
+		min-height: 100%;
+		margin: 0;
+		opacity: 0.3;
+	}
 	.menu-btn{
 		display:flex;
 	visibility: visible;
