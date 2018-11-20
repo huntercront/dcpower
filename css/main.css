@@ -573,6 +573,9 @@ left:-0.5em;
   background-size: cover; 
   background-repeat: no-repeat;
 }
+.text-input-first{
+	margin-top: 37px;
+}
 .text-input{
 	margin-bottom: 20px;
 	padding-left:25px;
@@ -588,11 +591,32 @@ left:-0.5em;
 	color: #595959;
 	transition:all 0.5s;
 	animation: 1s;
+	position: relative;
 }
 .text-input:focus, .text-input:valid {
   box-shadow: none;
   outline: none;
   background-position: 0 0;
+}
+.text-input:focus ~ .form-label-first{
+	transform: translateY(-90%);
+	font-size: 16px;
+	opacity: 1;
+}
+.contact_us_lable{
+	position: relative;
+}
+.form-label-first {
+	top:45px;
+	left:25px;
+	position: absolute;
+  background-color: #fff;
+	transition:150ms ease-out;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 18px;
+	transform: translateY(0%);
+	opacity: 0.7;
 }
 
 .contact-section-content{

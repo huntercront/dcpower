@@ -108,7 +108,9 @@ input:focus, input:valid {
   z-index: 10;
 	transition:150ms ease-out;
 	font-size: .9em;
-	transform: translateY(-125%);
+}
+.contact_us_lable{
+	position: relative;
 }
 input:valid ~ .form-label {
 	opacity: 0.5;
