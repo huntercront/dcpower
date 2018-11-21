@@ -723,14 +723,14 @@ body {
 	transform: translateY(-90%);
 	font-size: 14px;
 	opacity: 1;
-	background-color: #f7f8f8;
+	background-color: #ffffff;
 }
 
 .text-input:valid~.form-label {
 	transform: translateY(-90%);
 	font-size: 14px;
 	opacity: 1;
-	background-color: #f7f8f8;
+	background-color: #ffffff;
 }
 
 .push {
@@ -1168,7 +1168,7 @@ body {
 		font-size: 12px;
 	}
 	.text-input{
-		font-size: 12px;
+		font-size: 14px;
 		max-width: 240px;
 	}
 	.contact-section-tittle{
