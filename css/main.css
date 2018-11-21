@@ -145,7 +145,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	position: relative;
-	background-image: url('/img/hero_bg.jpg');
+	background-image: url('https://raw.githubusercontent.com/huntercront/dcpower/master/img/hero_bg.jpg');
 	background-size: cover;
 	background-position: right center;
 	overflow: hidden;
@@ -329,7 +329,7 @@ body {
 .about {
 	display: flex;
 	justify-content: center;
-	background-image: url('/img/about-img-bg.png');
+	background-image: url('https://raw.githubusercontent.com/huntercront/dcpower/master/img/about-img-bg.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -599,7 +599,7 @@ body {
 .service-img {
 	width: 100%;
 	height: 180px;
-	background-image: url('/img/service-img.png');
+	background-image: url('https://raw.githubusercontent.com/huntercront/dcpower/master/img/service-img.png');
 
 }
 
@@ -666,7 +666,7 @@ body {
 	justify-content: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	/* background-image: url('/img/contact-form-img.png');
+	/* background-image: url('https://raw.githubusercontent.com/huntercront/dcpower/master/img/contact-form-img.png');
 	background-position: 0% 50%;
 	background-size: 30%; */
 }
@@ -981,7 +981,7 @@ body {
 }
 @media (max-width: 992px){
 	.header-row-text{
-		font-size: 36px;
+		font-size: 48px;
 	}
 	p{
 		font-size: 14px;
@@ -1105,6 +1105,11 @@ body {
 
 
 @media (max-width: 768px){
+
+	.mouse-scroll{
+		display: none;
+	}
+
 	.contact-section-content{
 		flex-direction: column;
 		align-items: center;
@@ -1140,5 +1145,91 @@ body {
 }
 .about-section-text-tiitle:after, .services-tittle:after{
 	font-size:80px;
+}
+}
+@media (max-width:576px){
+	.about-section-text-tiitle:after, .services-tittle:after{
+		font-size:60px;
+	}
+	.form-label{
+		font-size: 14px;
+		width: 200px;
+		overflow: hidden;
+	}
+	.contact-section-social{
+		max-width: 30px;
+		max-height: 80px;
+	}
+	.text-input:focus~.form-label {
+		font-size: 12px;
+	}
+	
+	.text-input:valid~.form-label {
+		font-size: 12px;
+	}
+	.text-input{
+		font-size: 12px;
+		max-width: 240px;
+	}
+	.contact-section-tittle{
+		font-size: 24px;
+	}
+	.header-row-text{
+		font-size: 36px;
+	}
+	.header-row-text-descr{
+		font-size: 16px;
+	}
+	.contact-us{
+		font-size: 14px;
+	}
+	.form-label {
+		top: 10px;
+
+	}
+
+	.contact-social_ficon_svg,
+.contact-social_iicon_svg,
+.contact-social_vicon_svg {
+	width: 15px;
+	height: 15px;
+}
+
+.contact-social_iicon,
+.contact-social_ficon,
+.contact-social_vicon {
+	fill: #1d1d1d;
+	transition: 0.4s;
+	opacity: 0.7;
+}
+
+.contact-section-social {
+	display: flex;
+	position: absolute;
+	align-items: flex-start;
+	right: 5%;
+	bottom: 50px;
+
+}
+.about-section{
+	margin-bottom: 30px;
+}
+.services-tittle{
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.social-bg {
+	padding: 9px;
+	background-color: rgba(247, 151, 37, 0.5);
+}
+
+.social-f-i-bg {
+	background-color: rgba(247, 151, 37, 0.5);
+	padding: 9px 9px 4px 9px;
+}
+.about-section-plus{
+	flex-direction: column;
+	align-items: flex-start;
 }
 }
