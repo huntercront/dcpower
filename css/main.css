@@ -666,9 +666,7 @@ body {
 	justify-content: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	/* background-image: url('https://raw.githubusercontent.com/huntercront/dcpower/master/img/contact-form-img.png');
-	background-position: 0% 50%;
-	background-size: 30%; */
+
 }
 
 .lable-first {
@@ -829,6 +827,87 @@ body {
 }
 
 
+.worc-descr-container-descr{
+	font-size: 16px;
+}
+.worc-descr-container-tiitle{
+font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.1em;
+}
+.work-tittle{
+	position: relative;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 36px;
+color: rgb(97, 97, 97);
+font-weight: bold;
+line-height: 1.2;
+text-align: left;
+margin-bottom: 30px;
+position: relative;
+}
+.work-tittle:after {
+	content: 'Работа';
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 140px;
+	color: rgba(61, 61, 61, 0.14);
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: center;
+	position: absolute;
+	top: -0.5em;
+	left: -0.5em;
+}
+.work-container{
+	margin-left: 5%;
+	margin-right: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.worc-descr-container{
+	flex: 3 3 250px;
+	
+}
+.work-img-container{
+	margin-left: 5%;
+	flex: 4 4 600px;
+}
+.work{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+	max-width: 100vw;
+}
+.work-img-container-left-img{
+	width: 100%;
+}
+.work-img-container-left{
+	margin-right: 2px;
+}
+.work-img-container{
+	display: flex;
+}
+.work-img-container-right{
+	display: flex;
+	flex-direction: column;
+	margin-left: 2px;
+}
+.work-img-container-right-up-img{
+	width: 100%;
+}
+.work-img-container-right-down-img{
+	width: 100%;
+}
+
+
+
 
 .up-button {
 	position: fixed;
@@ -913,8 +992,7 @@ body {
 }
 
 
-@media (max-width:992px){
-	
+@media (max-width:1015px){
 }
 .menu-btn{
 	display:none;
@@ -1110,6 +1188,7 @@ body {
 
 	.mouse-scroll{
 		display: none;
+		background-repeat: no-repeat;
 	}
 
 	.contact-section-content{
