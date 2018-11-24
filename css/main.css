@@ -1256,6 +1256,7 @@ position: relative;
 		max-width: 65%;
 	}
 	.bads-title{
+		margin-top:5px;
 		text-align: left;
 		width: 100%;
 		font-size: 16px;
@@ -1265,7 +1266,7 @@ position: relative;
 		margin: 15px 10px 15px 10px;
 	}
 	.bads-card-descr{
-		margin-bottom: 5px;
+		margin-bottom: 10px;
 		margin-top: 5px;
 		font-size: 14px;
 	}
