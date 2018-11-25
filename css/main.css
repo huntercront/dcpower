@@ -1279,6 +1279,12 @@ position: relative;
 .nav-a:hover{
 	color:#f79725;
 }
+@media (max-width: 1115px){
+	.nav-a{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
 @media (max-width: 1015px){
 	.footer-container-contacts-number-text{
 		order:2;
