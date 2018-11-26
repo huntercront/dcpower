@@ -612,18 +612,50 @@ body {
 	box-shadow: 0px 15px 19px 0px rgba(0, 0, 0, 0.16);
 	transform: translateY(-5px);
 }
-
 .service-img {
 	width: 100%;
 	height: 180px;
+
+}
+#service-1 .service-img {
+	background-image: url('https://raw.githubusercontent.com/huntercront/dcpower/master/img/electricadd.jpg');
+
+}
+#service-2 .service-img {
 	background-image: url('https://raw.githubusercontent.com/huntercront/dcpower/master/img/service-img.png');
 
 }
+#service-3 .service-img {
+	background-image: url('https://raw.githubusercontent.com/huntercront/dcpower/master/img/electricadd.jpg');
 
-.service-image {
-	object-fit: cover;
-	width: 100%;
-	height: 180px;
+}
+#service-4 .service-img {
+	background-image: url('https://raw.githubusercontent.com/huntercront/dcpower/master/img/streetcamera.jpg');
+
+}
+#service-5 .service-img {
+	background-image: url('https://raw.githubusercontent.com/huntercront/dcpower/master/img/genetator.jpg');
+
+}
+#service-6 .service-img {
+	background-image: url('https://raw.githubusercontent.com/huntercront/dcpower/master/img/localweb.jpg');
+
+}
+#service-7 .service-img {
+	background-image: url('https://raw.githubusercontent.com/huntercront/dcpower/master/img/streetcamera.jpg');
+
+}
+#service-8 .service-img {
+	background-image: url('https://raw.githubusercontent.com/huntercront/dcpower/master/img/İnterkom.jpg');
+
+}
+#service-9 .service-img {
+	background-image: url('https://raw.githubusercontent.com/huntercront/dcpower/master/img/numbertv.jpg');
+
+}
+#service-10 .service-img {
+	background-image: url('https://raw.githubusercontent.com/huntercront/dcpower/master/img/wotercontrol.jpg');
+
 }
 
 .service-text {
